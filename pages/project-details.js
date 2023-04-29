@@ -1,7 +1,7 @@
 import Head from "next/head";
-import ProjectAbout from "../components/ProjectDetails/ProjectAbout";
-import RecentProject from "../components/ProjectDetails/RecentProject";
-import PageBanner from "../components/Common/PageBanner";
+import ProjectAbout from "./../components/ProjectDetails/ProjectAbout";
+import RecentProject from "./../components/ProjectDetails/RecentProject";
+import PageBanner from "./../components/Common/PageBanner";
 
 export default function ProjectDetails() {
     return (

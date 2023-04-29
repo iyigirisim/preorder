@@ -1,5 +1,5 @@
 import Head from "next/head";
-import PageBanner from "../components/Common/PageBanner";
+import PageBanner from "./../components/Common/PageBanner";
 export default function servicesDetails() {
     return (
         <>

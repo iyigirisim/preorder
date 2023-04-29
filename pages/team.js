@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Teams from "./../components/Team/Teams";
+import Teams from "../components/Team/Teams";
 import CallToAction from "./../components/Common/CallToAction";
 import PageBanner from "./../components/Common/PageBanner";
 

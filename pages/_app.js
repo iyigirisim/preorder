@@ -1,4 +1,5 @@
 import Head from "next/head";
+import "../styles/product-detail.css"
 import "react-image-lightbox/style.css";
 import "react-modal-video/css/modal-video.min.css";
 import "slick-carousel/slick/slick.css";
@@ -7,6 +8,7 @@ import "../styles/animate.css";
 import "../styles/bootstrap.min.css";
 import "../styles/icons.css";
 import "../styles/scss/style.scss";
+
 
 function MyApp({ Component, pageProps }) {
     return (

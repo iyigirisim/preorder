@@ -1,5 +1,6 @@
 import Head from "next/head";
 import PageBanner from "../../components/Common/PageBanner";
+import ProductDetails from "../../components/ProductDetails/productDetails";
 
 const products = [
     {
@@ -36,12 +37,10 @@ export default function newsDetails() {
     return (
         <>
             <Head>
-                <title>News Details</title>
+                <title>Product Details</title>
             </Head>
-            <PageBanner
-                title="Ürünlerimize göz atmaya ne dersin?"
-                content="The CVI is created by computing a decentralized volatility index from cryptocurrency option prices together with analyzing the market."
-            />
+            <ProductDetails />
+
 
 
     

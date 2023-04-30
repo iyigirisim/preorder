@@ -39,8 +39,10 @@ export default function Navbar() {
 										</Link>
 									</li>
 									<li>
-										<a href="#">Products</a>
-										<ul className="sub-menu">
+										<Link href="/product">
+											<a>Products</a>
+										</Link>
+										{/* <ul className="sub-menu">
 											<li>
 												<Link href="/product">
 													<a>Product 1</a>
@@ -57,8 +59,8 @@ export default function Navbar() {
 													<a>Product 3</a>
 												</Link>
 											</li>
-											</ul>
-											
+											</ul> */}
+
 										{/* <ul className="sub-menu">
 											<li>
 												<Link href="/faq">

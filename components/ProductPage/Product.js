@@ -43,10 +43,12 @@ export default function Product() {
                     <div className="row text-center text-lg-start">
                         {products.map((product) => (
                             <Link href={`/product/${product.slug}`} key={product.id}>
-                                <div className="col-md-6 col-xl-4 col-12 hover:cursor-pointer" key={product.id}>
-                                    <img src={product.image} alt={product.name} />
+
+                                <div style={{ cursor: "pointer" }} className="col-md-6 col-xl-4 col-12" key={product.id}>
+                                    <img className="cursor-pointer" src={product.image} alt={product.name} />
                                     <p>{product.description}</p>
                                 </div>
+
                             </Link>
                         ))}
 

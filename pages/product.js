@@ -1,5 +1,5 @@
-import PageBanner from "./../components/Common/PageBanner";
-import Product from "./../components/ProductPage/Product";
+import PageBanner from "../components/Common/PageBanner";
+import Product from "../components/ProductPage/Product";
 import Head from "next/head";
 
 export default function product() {

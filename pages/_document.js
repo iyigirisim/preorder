@@ -7,7 +7,7 @@ export default function Document() {
 				<link href="/fonts/GeneralSans-Bold.eot" rel="stylesheet" />
 				<link href="/fonts/GeneralSans-Bold.woff" rel="stylesheet" />
 				<link href="/fonts/GeneralSans-Bold.woff2" rel="stylesheet" />
-
+ 
 				<link href="/fonts/GeneralSans-Medium.eot" rel="stylesheet" />
 				<link href="/fonts/GeneralSans-Medium.woff" rel="stylesheet" />
 				<link href="/fonts/GeneralSans-Medium.woff2" rel="stylesheet" />

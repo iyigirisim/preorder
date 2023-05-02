@@ -11,12 +11,13 @@ export default function about() {
     return (
         <>
             <Head>
-                <title>About Page</title>
+                <title>About Us</title>
+                <meta
+                    name="Our newly established company offers luxury and eco-friendly modular homes, aiming to bring the comfort of sustainable living to you. With our vision, mission, and goals, we strive to become a leader in the industry."
+                    content="About Us"
+                />
             </Head>
-            <PageBanner
-                title="With our vision, mission, and goals, we strive to become a leader in the industry."
-                content=" Our newly established company offers luxury and eco-friendly modular homes, aiming to bring the comfort of sustainable living to you. "
-            />
+            <PageBanner title="About Us" content="Who we are?" />
             <ContentOne />
             <FeaturesThree />
             <ContentTwo />

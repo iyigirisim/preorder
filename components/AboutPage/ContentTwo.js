@@ -6,12 +6,10 @@ export default function ContentTwo() {
 					<div className="col-xl-6 col-12 mt-5 mt-xl-0 order-2 order-xl-1">
 						<div className="block-contents">
 							<div className="section-title mb-4">
-								<h2 className="wow fadeInUp">Our goal is to expand the digital agency</h2>
+								<h2 className="wow fadeInUp">Our Vision</h2>
 								<p className="wow fadeInUp pt-15" data-wow-delay=".3s">
-									The purpose of a mission statement is to communic organisation's purpose and
-									direction to its employees, customers, vens, and other stakeholders. A mission
-									statement also creates a sense identity for its employees provide the best customer
-									results possible deliver.
+								To be recognized worldwide as a pioneer in sustainable and eco-friendly modular homes, to reach a leadership position
+								 in the sector and to create a positive impact on people's lives while offering solutions for a greener world.
 								</p>
 							</div>
 						</div>
@@ -20,13 +18,13 @@ export default function ContentTwo() {
 								<h3>
 									<span>250</span>+
 								</h3>
-								<p>Happy clients</p>
+								<p>Homes</p>
 							</div>
 							<div className="single-funfact wow fadeInUp" data-wow-delay=".8s">
 								<h3>
-									<span>99</span>%
+									<span>76</span>%
 								</h3>
-								<p>Customer satisfaction</p>
+								<p>Energy Saving</p>
 							</div>
 						</div>
 					</div>

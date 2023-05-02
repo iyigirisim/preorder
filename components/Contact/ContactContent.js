@@ -12,24 +12,24 @@ export default function ContactContent() {
 					<div className="col-md-6 col-xl-4">
 						<ContactCard
 							icon={<AiTwotonePhone />}
-							contentOne="+088-436-258-001"
-							ContentTwo="+991-656-654-988"
+							contentOne=" +90 552 157 05 36"
+							ContentTwo="+90 362 446 44 49"
 							className="box1"
 						/>
 					</div>
 					<div className="col-md-6 col-xl-4">
 						<ContactCard
 							icon={<FaEnvelope />}
-							contentOne="info@example.com"
-							ContentTwo="job@example.com"
+							contentOne="info@juwelberg.com"
+							ContentTwo="info@juwelberg.de"
 							className="box2"
 						/>
 					</div>
 					<div className="col-md-6 col-xl-4">
 						<ContactCard
-							icon={<FaMapMarkerAlt />}
-							contentOne="2118 Thornridge Cir, New York."
-							ContentTwo="4140 Rd. Allentown, Mexico."
+							icon={<FaMapMarkerAlt />} 
+							contentOne="Kale Mah. Kaptanağa Sk. No:3" 
+							ContentTwo="Uzunoğlu İşh. D:48 İlkadım/Samsun"
 							className="box3"
 						/>
 					</div>

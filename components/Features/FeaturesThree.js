@@ -2,14 +2,15 @@ export default function FeaturesThree() {
 	return (
 		<div className="container section-padding mtm-120">
 			<div className="row  d-flex justify-content-between">
+				<h2 className="text-center pb-5 pt-4">Our Values</h2>
 				<div className="col-xxl-3 col-xl-4 col-md-6">
 					<div className="single-about-features">
 						<div className="icon">
 							<img src="img/icons/idea.png" alt="" />
 						</div>
 						<div className="content">
-							<h3>Creative Thinking</h3>
-							<p>Creative thinking is the ability to consider something in a new way.</p>
+							<h3>Customer Focus</h3>
+							<p>Providing products and services that meet customer needs and expectations, prioritizing customer satisfaction.</p>
 						</div>
 					</div>
 				</div>
@@ -19,8 +20,8 @@ export default function FeaturesThree() {
 							<img src="img/icons/man.png" alt="" />
 						</div>
 						<div className="content">
-							<h3>Skilled Team</h3>
-							<p>We have a skilled team. Those who work through their own experience.</p>
+							<h3>Sustainability</h3>
+							<p>Developing environmentally friendly and energy-efficient solutions to contribute to the widespread adoption of sustainable living.</p>
 						</div>
 					</div>
 				</div>
@@ -30,8 +31,8 @@ export default function FeaturesThree() {
 							<img src="img/icons/setting.png" alt="" />
 						</div>
 						<div className="content">
-							<h3>Maximum Service</h3>
-							<p>Maximum service has been in the creative industry for over 30 years.</p>
+							<h3>Innovation</h3>
+							<p>Progressing towards leadership in the industry with innovative and creative ideas and ensuring continuous development.</p>
 						</div>
 					</div>
 				</div>

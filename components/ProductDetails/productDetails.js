@@ -5,8 +5,16 @@ const product = {
     name: "Windbreaker 10",
     slug: "windbreaker-10",
     image: "/img/about-img1.jpg",
-    description: "This is an example description for Windbreaker 10. This product is a windbreaker that is 10 feet long.",
-    description2: "Dicta sunt explicabo. Nemo enim ipsam voluptatem voluptas sit odit aut fugit, sed quia consequuntur. Lorem ipsum nonum eirmod dolor."
+    description: "Modern ve minimalist bir estetik anlayışla tasarlanan yaşam alanlarımız, geniş cam yüzeyleri ve ahşap dokular sayesinde doğanın güzelliklerini iç mekana taşır.",
+    description2: "Güneş panelleri ve yüksek yalıtım özellikleriyle enerji ihtiyacınızı minimuma indirerek doğayla dost bir yaşam sürmenize imkan tanır.",
+    technical: {
+        length: "10 m",
+        width: "5 m",
+        height: "3 m",
+        weight: "10 ton",
+        power: "10 kW",
+        capacity: "10 kWh",
+    },
 }
 
 

@@ -20,7 +20,11 @@ export default function about() {
             <PageBanner title="About Us" content="Who we are?" />
             <ContentOne />
             <FeaturesThree />
-            <ContentTwo />
+            <ContentTwo
+                title="Our Vision"
+                content="To be recognized worldwide as a pioneer in sustainable and eco-friendly modular homes, to reach a leadership position
+								 in the sector and to create a positive impact on people's lives while offering solutions for a greener world." />
+
         </>
     );
 }

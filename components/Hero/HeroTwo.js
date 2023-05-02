@@ -1,32 +1,23 @@
-import Link from "next/link";
-
+import ContentTwo from "../AboutPage/ContentTwo";
 
 export default function HeroTwo() {
-	return (
-		<section className="hero-welcome-wrapper hero-2">
-			<div className="single-slide text-white">
-			<div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
-  <div className="carousel-inner">
-    <div className="carousel-item active">
-      <img src="https://picsum.photos/1920/1080" className="d-block w-100" alt="..."/>
-    </div>
-    <div className="carousel-item">
-      <img src="https://picsum.photos/1920/1080" className="d-block w-100" alt="..."/>
-    </div>
-    <div className="carousel-item">
-      <img src="https://picsum.photos/1920/1080" className="d-block w-100" alt="..."/>
-    </div>
-  </div>
-  <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span className="visually-hidden">Previous</span>
-  </button>
-  <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-    <span className="carousel-control-next-icon" aria-hidden="true"></span>
-    <span className="visually-hidden">Next</span>
-  </button>
-</div>
-			</div>
-		</section>
-	);
+  return (
+
+
+
+
+    <section className="hero-welcome-wrapper hero-2">
+      <div className="header-slogan">
+        <h2 className="text-center">Luxury and Eco-friendly Modular Homes</h2>
+        <h3 className="text-center">Comfort, Sustainability, and Customizable Design.</h3>
+        <p className="text-center">Experience the ultimate in comfort and sustainability with our luxury and eco-friendly modular homes,
+          offering customizable and environmentally-friendly living spaces. Choose from furnished or unfurnished
+          options and add a solar energy system package for an energy-efficient, eco-friendly, and luxurious living
+          experience. Just 6 months after placing your order, you'll be enjoying your new living space!</p>
+      </div>
+
+
+    </section>
+
+  );
 }

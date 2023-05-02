@@ -12,16 +12,16 @@ export default function ContactContent() {
 					<div className="col-md-6 col-xl-4">
 						<ContactCard
 							icon={<AiTwotonePhone />}
-							contentOne="+088-436-258-001"
-							ContentTwo="+991-656-654-988"
+							contentOne=" +90 552 157 05 36"
+							ContentTwo="+90 362 446 44 49"
 							className="box1"
 						/>
 					</div>
 					<div className="col-md-6 col-xl-4">
 						<ContactCard
 							icon={<FaEnvelope />}
-							contentOne="info@example.com"
-							ContentTwo="job@example.com"
+							contentOne="info@juwelberg.com"
+							ContentTwo="info@juwelberg.de"
 							className="box2"
 						/>
 					</div>

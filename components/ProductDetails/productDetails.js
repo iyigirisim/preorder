@@ -40,13 +40,17 @@ export default function ProductDetails() {
                     <p className="product-description">{product.description2} </p>
                    
                     <div className="product-cta-container">
-                    <div className="atc-count">
+
+                    <div className="atc-counter">
                         <input className="atc-count-input" type="number" value={1} />
                         <div className="atc-count-buttons">
                             <button className="atc-count-button"><img className="counter-svg" src="/img/icons/incrementor.svg" /></button>
                             <button className="atc-count-button"><img className="counter-svg" src="/img/icons/decrementor.svg" /></button>
                         </div>
                     </div>
+                    <button className="atc-button">
+                        Add to Cart
+                    </button>
 
                 </div>
                 </div>

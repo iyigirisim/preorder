@@ -2,8 +2,8 @@ import GoogleMapReact from "google-map-react";
 export default function Map() {
 	const location = {
 		center: {
-			lat: 24.367377,
-			lng: 88.6039957,
+			lat: 50.9820834,
+			lng: 6.919962,
 		},
 		zoom: 15,
 	};

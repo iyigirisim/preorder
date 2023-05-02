@@ -15,8 +15,9 @@ input[type="number"] {
   width: 100%;
   background-color: #11251e;
   display: flex;
-  padding-top: 13rem;
-  padding-left: 8rem;
+  flex-direction: column;
+  padding-top: 8rem;
+  padding-left: 12rem;
   padding-right: 8rem;
   padding-bottom: 5rem;
 }
@@ -156,4 +157,22 @@ input[type="number"] {
   font-weight: 500;
   background-color: #35be3b;
   color: #1f4423;
+}
+
+.back-button {
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 50%;
+  background-color: transparent;
+  outline:  2px solid #35be3b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom:3rem;
+
+}
+
+.back-button-icon {
+  height: 0.9rem;
+  width: 0.9rem;
 }

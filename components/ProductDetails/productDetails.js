@@ -29,6 +29,8 @@ export default function ProductDetails() {
     return (
 
         <div className="product-background">
+            <button className='back-button'><img  className="back-button-icon" src='/img/icons/back.svg'/></button>
+
             <div className="product-container">
                 <div className="image-container">
                     <a href="#"> <img className="product-image-preview" src={product.image} alt={product.name} /> </a>

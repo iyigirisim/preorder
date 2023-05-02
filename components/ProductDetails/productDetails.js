@@ -29,7 +29,7 @@ export default function ProductDetails() {
     return (
 
         <div className="product-background">
-            <button className='back-button'><img  className="back-button-icon" src='/img/icons/back.svg'/></button>
+            <a className='back-button' href='/product' ><img className="back-button-icon" src='/img/icons/back.svg'/></a>
 
             <div className="product-container">
                 <div className="image-container">

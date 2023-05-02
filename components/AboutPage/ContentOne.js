@@ -28,15 +28,15 @@ export default function ContentOne() {
 					<div className="col-xl-6 col-12 ps-xl-5 mt-5 mt-xl-0 ">
 						<div className="block-contents ms-xl-5">
 							<div className="section-title mb-4">
-								<h2 className="wow fadeInUp">The story behind how our company was founded</h2>
+								<h2 className="wow fadeInUp">About Us</h2>
 								<p className="wow fadeInUp pt-15" data-wow-delay=".3s">
-									It is our experience that equips us, our emotions that drive us, and our creativity
-									that sets us apart.
+								Our company, as a new and rapidly growing entrant in the industry, aims to bring the comfort of sustainable living to you by offering luxury and eco-friendly modular homes. 
+
 								</p>
 								<p className="mt-3">
-									To help keep our clients focused on the complex modern marketing world, we create
-									digital integrated campaigns. We believe that small businesses create the most
-									unique attractive and meaningful place to work.
+								Using environmentally friendly and energy-efficient materials, we provide customizable, 
+								comfortable, and stylish living spaces for our customers. We are working towards becoming 
+								a leader in the sector.
 								</p>
 							</div>
 						</div>

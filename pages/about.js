@@ -14,8 +14,8 @@ export default function about() {
                 <title>About Page</title>
             </Head>
             <PageBanner
-                title="About Us"
-                content="We work to create some of the most attractive and meaningful places for small businesses."
+                title="With our vision, mission, and goals, we strive to become a leader in the industry."
+                content=" Our newly established company offers luxury and eco-friendly modular homes, aiming to bring the comfort of sustainable living to you. "
             />
             <ContentOne />
             <FeaturesThree />

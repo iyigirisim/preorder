@@ -28,8 +28,8 @@ export default function ContactContent() {
 					<div className="col-md-6 col-xl-4">
 						<ContactCard
 							icon={<FaMapMarkerAlt />} 
-							contentOne="Kale Mahallesi Kaptanağa Sokak No:3" 
-							ContentTwo="Uzunoğlu İşhanı D:48 İlkadım/Samsun"
+							contentOne="Kale Mah. Kaptanağa Sk. No:3" 
+							ContentTwo="Uzunoğlu İşh. D:48 İlkadım/Samsun"
 							className="box3"
 						/>
 					</div>

@@ -5,7 +5,7 @@ export default function Map() {
 			lat: 41.289570,
 			lng: 36.333288,
 		},
-		zoom: 15,
+		zoom: 17,
 	};
 	const AnyReactComponent = ({ text }) => <div>{text}</div>;
 	return (

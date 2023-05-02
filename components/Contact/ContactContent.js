@@ -27,9 +27,9 @@ export default function ContactContent() {
 					</div>
 					<div className="col-md-6 col-xl-4">
 						<ContactCard
-							icon={<FaMapMarkerAlt />}
-							contentOne="2118 Thornridge Cir, New York."
-							ContentTwo="4140 Rd. Allentown, Mexico."
+							icon={<FaMapMarkerAlt />} 
+							contentOne="Kale Mahallesi Kaptanağa Sokak No:3" 
+							ContentTwo="Uzunoğlu İşhanı D:48 İlkadım/Samsun"
 							className="box3"
 						/>
 					</div>

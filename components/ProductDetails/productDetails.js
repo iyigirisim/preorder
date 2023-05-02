@@ -1,4 +1,4 @@
-
+import React, { useState } from 'react';
 
 const product = {
     id: 1,
@@ -13,6 +13,19 @@ const product = {
 
 
 export default function ProductDetails() {
+    const [actCount, setActCount] = useState(1);
+
+    const increment = () => {
+        setActCount(actCount + 1);
+    }
+
+    const decrement = () => { 
+        if (actCount > 1) {
+            setActCount(actCount - 1);
+        }
+    }
+
+
     return (
 
         <div className="product-background">
@@ -42,10 +55,10 @@ export default function ProductDetails() {
                     <div className="product-cta-container">
 
                     <div className="atc-counter">
-                        <input className="atc-count-input" type="number" value={1} />
+                        <input className="atc-count-input" type="number"  value={actCount} />
                         <div className="atc-count-buttons">
-                            <button className="atc-count-button"><img className="counter-svg" src="/img/icons/incrementor.svg" /></button>
-                            <button className="atc-count-button"><img className="counter-svg" src="/img/icons/decrementor.svg" /></button>
+                            <button className="atc-count-button" onClick={increment}><img className="counter-svg" src="/img/icons/incrementor.svg" /></button>
+                            <button className="atc-count-button" onClick={decrement}><img className="counter-svg" src="/img/icons/decrementor.svg" /></button>
                         </div>
                     </div>
                     <button className="atc-button">

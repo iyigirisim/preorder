@@ -1,11 +1,11 @@
 import Head from "next/head";
-import BlogContent from "./../components/DefaultHome/BlogContent";
-import CallToAction from "./../components/DefaultHome/CallToAction";
-import ContentBlockOne from "./../components/DefaultHome/ContentBlockOne";
-import ContentBlockTwo from "./../components/DefaultHome/ContentBlockTwo";
-import HeroOne from "./../components/Hero/HeroOne";
-import PopularCryptoCurrencies from "./../components/DefaultHome/PopularCryptoCurrencies";
-import ContentTwo from "./../components/AboutPage/ContentTwo";
+import BlogContent from "../components/DefaultHome/BlogContent";
+import CallToAction from "../components/DefaultHome/CallToAction";
+import ContentBlockOne from "../components/DefaultHome/ContentBlockOne";
+import ContentBlockTwo from "../components/DefaultHome/ContentBlockTwo";
+import HeroOne from "../components/Hero/HeroOne";
+import PopularCryptoCurrencies from "../components/DefaultHome/PopularCryptoCurrencies";
+import ContentTwo from "../components/AboutPage/ContentTwo";
 
 export default function Home() {
     return (

@@ -12,15 +12,15 @@ export default function HeroTwo() {
                     <div className="carousel-inner">
                         <div className="carousel-item active">
                             <img
-                                src="https://picsum.photos/1920/1080"
+                                src="img/banner/banner1.jpeg"
                                 className="d-block w-100"
                                 alt="..."
                             />
                         </div>
                         <div className="carousel-item">
                             <img
-                                src="https://picsum.photos/1920/1080"
-                                className="d-block w-100"
+                                src="img/banner/banner2.jpeg"
+                                className="d-block d-flex justify-content-center h-100"
                                 alt="..."
                             />
                         </div>
